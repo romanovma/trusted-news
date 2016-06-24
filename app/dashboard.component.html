@@ -1,0 +1,6 @@
+<h2>Top articles</h2>
+<div *ngFor="let article of topArticles" (click)="gotoDetail(article)">
+  <div>
+    <h4>{{article.name}}</h4>
+  </div>
+</div>
